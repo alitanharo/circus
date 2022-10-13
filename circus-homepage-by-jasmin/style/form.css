@@ -1,0 +1,171 @@
+
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 21px;
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 5px;
+}
+
+.topnav a.logo {
+    text-align: center;
+    padding: 1px;
+    margin-top: 1px;
+    border-radius: 5px;
+}
+
+.topnav a.right {
+    float:right;
+    border-radius: 5px;
+    text-align: center;
+
+    margin-right: 30px;
+
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    background-position: bottom;
+    border-radius: 5px;
+    color: black;
+}
+
+main h1 {
+    font-size: 48px;
+}
+form {
+    width:50%;
+    margin: 0 auto;
+    }
+
+/* Makes responsive fields. Sets size and field alignment.*/
+
+
+input[type=text], [type=number], [type=dropdown], input[type="date"], input[type="email"], input[type="tel"], input[type="time"] textarea{
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:75%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid black;
+  
+}
+
+.background {
+    background-color: aliceblue;
+
+
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:75%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid black;
+}
+
+input[type=submit] {
+    margin-bottom: 20px;
+    width:80%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid;
+    background-color: black;
+    color: aliceblue;
+    font-size:25px;
+    cursor:pointer;
+    }
+
+input[type=submit]:hover {
+    background-color: #007ffe;
+    }
+
+
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    text-align: center;
+    width: 350px;
+    height: auto;
+    font-size: 25px;
+    padding: 15px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+    border-radius: 5px;
+  } 
+
+  .Welcome {
+    position:fixed;
+   
+
+    text-align:center;
+    text-decoration-color: white;
+    color: white;
+
+
+  }
+
+  .reservation{
+    background-color: aliceblue;
+    text-align:center;
+    font-size: 22;
+    padding-left: 25px;
+    text-align: center; 
+   }
+   input, textarea {
+    text-align:center;
+    display: block;
+    }
+
+    .button {
+        color: #000;
+        text-decoration-color: white;
+    }
+
+    .contactdetails {
+        font-size: 28;
+    }
+
+    .table-responsive{
+        max-width: 268px;
+    }
