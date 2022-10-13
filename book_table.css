@@ -1,12 +1,6 @@
 
 body{
-  background-color:aquamarine;
-}
-input, textarea {
-    display: block;
-    }
-  .reservation {
-    padding-left: 25px;
-    /* text-align: center; */
-  }
-  
+  background-color:aquamarine;  
+  text-align: center;
+} 
+ 
